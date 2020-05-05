@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "service", "service", "{1196EDAF-2F0E-4745-A20D-06084FBDD725}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8415E45D-9A26-43C8-A396-553C1AF79416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Api", "service\src\AspNetCore.Api\AspNetCore.Api.csproj", "{8DD2518E-3E90-4F24-BE02-F68F36BA876D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DD2518E-3E90-4F24-BE02-F68F36BA876D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD2518E-3E90-4F24-BE02-F68F36BA876D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD2518E-3E90-4F24-BE02-F68F36BA876D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD2518E-3E90-4F24-BE02-F68F36BA876D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8415E45D-9A26-43C8-A396-553C1AF79416} = {1196EDAF-2F0E-4745-A20D-06084FBDD725}
+		{8DD2518E-3E90-4F24-BE02-F68F36BA876D} = {8415E45D-9A26-43C8-A396-553C1AF79416}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B970EF1-B208-4CC0-B8E8-D36FA0B9DCE6}
+	EndGlobalSection
+EndGlobal
